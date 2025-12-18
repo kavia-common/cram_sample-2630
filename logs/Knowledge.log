@@ -707,3 +707,92 @@
 2025-12-18 03:17:43,800 - Knowledge - INFO - ⚡ Total Redis path: 0.87s (vs ~300s from disk)
 2025-12-18 03:17:44,013 - Knowledge - INFO - Saving knowledge to Redis...
 2025-12-18 03:17:44,201 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-12-18 03:18:55,435 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-12-18 03:18:55,767 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-12-18 03:18:55,948 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-12-18 03:18:56,117 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2025-12-18 03:18:57,111 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2025-12-18 03:18:57,256 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2025-12-18 03:18:57,469 - Knowledge - INFO - load persisted knowledge: begin
+2025-12-18 03:18:57,637 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:18:57,802 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:18:57,974 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/firewall/firewall_policies.t
+2025-12-18 03:18:58,149 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:18:58,288 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:18:58,471 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/22-iptables-rate-limit.t
+2025-12-18 03:18:58,664 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:18:58,824 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:18:59,032 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/19-iptables-forward-policy.t
+2025-12-18 03:18:59,177 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:18:59,337 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:18:59,514 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/23-iptables-logging.t
+2025-12-18 03:18:59,674 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:18:59,863 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:00,051 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/12-wan-ip-connectivity.t
+2025-12-18 03:19:00,216 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:00,443 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:00,613 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/21-iptables-custom-rule-persist.t
+2025-12-18 03:19:00,821 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:01,019 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:01,198 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/16-uci-set-commit-reload.t
+2025-12-18 03:19:01,383 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:01,590 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:01,756 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/01-sample.t
+2025-12-18 03:19:01,973 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:02,138 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:02,297 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/10-wireless-bringup.t
+2025-12-18 03:19:02,490 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:02,688 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:02,874 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/02-sample2.t
+2025-12-18 03:19:03,089 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:03,241 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:03,408 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/11-lan-vlan-config.t
+2025-12-18 03:19:03,589 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:03,808 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:03,978 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/20-iptables-port-forward.t
+2025-12-18 03:19:04,146 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:04,319 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:04,472 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/README.md
+2025-12-18 03:19:04,635 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:04,801 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:04,988 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/13-lan-dhcp-lease.t
+2025-12-18 03:19:05,211 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:05,366 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:05,572 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/18-iptables-nat-masquerade.t
+2025-12-18 03:19:05,740 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:05,900 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:06,092 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/14-firewall-basic-rules.t
+2025-12-18 03:19:06,253 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:06,419 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:06,572 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/17-log-ubus-events.t
+2025-12-18 03:19:06,762 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:06,957 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:07,159 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/15-throughput-sanity-ping.t
+2025-12-18 03:19:07,390 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:07,550 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:07,732 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/output/report_sample.txt
+2025-12-18 03:19:07,941 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:08,145 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:08,310 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_cram/cram.sh
+2025-12-18 03:19:08,504 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:08,697 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:08,891 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/run_cram_test.sh
+2025-12-18 03:19:09,085 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/cram_sample-2630.git:cga-cm4dc6249a
+2025-12-18 03:19:09,238 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fc1b2a85a50>
+2025-12-18 03:19:09,440 - Knowledge - INFO - process ingested knowledge for /app/data/gemtektechnologycoltd2546/2631/b57587r/cram_sample-2630/sample_case/iptables/iptables_rules.t
+2025-12-18 03:19:09,659 - Knowledge - INFO - Loaded 22 files from persisted knowledge
+2025-12-18 03:19:09,826 - Knowledge - INFO - load persisted knowledge: end
+2025-12-18 03:19:10,045 - Knowledge - INFO - Redis support added with prefix knowledge:b57587r:
+2025-12-18 03:19:10,245 - Knowledge - INFO - Starting knowledge initialization for ID: 8toPH1-b57587r
+2025-12-18 03:19:10,463 - Knowledge - INFO - 🔍 Checking Redis for build_id: b57587r
+2025-12-18 03:19:10,652 - Knowledge - INFO - 🔍 Full session ID: 8toPH1-b57587r
+2025-12-18 03:19:10,830 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b57587r:
+2025-12-18 03:19:11,016 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2025-12-18 03:19:11,195 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2025-12-18 03:19:11,376 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b57587r
+2025-12-18 03:19:11,541 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2025-12-18 03:19:11,717 - Knowledge - INFO - ✅ Successfully loaded from Redis: 22 files
+2025-12-18 03:19:11,859 - Knowledge - INFO - ✅ Redis load complete: 22 files in 0.84s
+2025-12-18 03:19:11,995 - Knowledge - INFO - ⚡ Total Redis path: 0.84s (vs ~300s from disk)
+2025-12-18 03:19:12,182 - Knowledge - INFO - Saving knowledge to Redis...
+2025-12-18 03:19:12,374 - Knowledge - INFO - Knowledge saved to Redis successfully
